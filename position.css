@@ -1,0 +1,16 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    text-align:center;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    background: #980f0f;
+    position: static;
+    top:100px;
+    left:100;
+/* in static property no effect of top and left because it is in normal flow of document and it is default position property of element   */
+}

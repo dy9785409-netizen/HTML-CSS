@@ -1,0 +1,24 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color: rgb(185, 232, 232);
+    margin: 10px auto;
+    display: flex; 
+    flex-direction: row;
+    /* //flex-direction:column; vertical aligment of flex itm
+    flex-direction:row-reverse; horizontal aligment of flex item with reverse order
+    flex-directio:column-reverse'; vertical aligment of flex item with reverse order */ 
+}
+.text{
+    text-align: center;
+    /* margin-top:20px; */
+    padding: 20px;
+   
+}
+h2{
+    text-align:center;
+}
+#container div{
+    height:100px;
+    width:300px;
+}

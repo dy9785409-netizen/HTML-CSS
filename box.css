@@ -1,0 +1,39 @@
+/* on the box model content apply the height and border properties */
+div{
+    height: 200px;
+    width: 500px;
+    background: #c87373;
+    border-width: 5px;
+    border-style:dotted;
+    border-color: aqua;
+/* border radius property applies  */
+    border-radius: 15px;
+    border-top-right-radius: 20px;
+}
+h1{
+    border-color: rgb(163, 11, 102);
+    border: dotted;
+    background: #b96767;
+    border-width: 4px;
+}
+div{
+    border-left-color: blue ;
+}
+/* padding apply */
+div{
+    padding-left: 2px;
+    padding-right: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* in short way aplly padding like it know as clockwise padding*/
+div{
+    padding:1px 2px 3px 4px;
+}
+/* apply the margin propertis on the html code */
+div{
+    margin-top:10px;
+    margin-right:33px;
+    margin-bottom:40px;
+    margin-left:50px;
+}
